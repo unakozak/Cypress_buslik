@@ -1,0 +1,15 @@
+{
+  "name": "buslik_cypress",
+  "version": "1.0.0",
+  "description": "testing framework for buslik.by using cypress",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ulyana Kozak",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^12.13.0",
+    "cypress-xpath": "^2.0.1"
+  }
+}
