@@ -4,6 +4,7 @@ module.exports = defineConfig({
   e2e: {
     watchForFileChanges: false,
     baseUrl: 'https://buslik.by',
-    defaultCommandTimeout: 10000
+    defaultCommandTimeout: 10000,
+    "video": false
   },
 });
