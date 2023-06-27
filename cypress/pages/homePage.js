@@ -25,6 +25,11 @@ class homePage {
         successfulMsg : () => cy.get('[class*=subscribe-block__center--success]'),
     };
 
+    bestProposes = {
+        btnAddToCart: () => cy.get('[class*="btn-buy catalog-item__btn"]'),
+        
+    }
+
     clickOnSignin() {
         this.elements.loginBtn().click();
     };

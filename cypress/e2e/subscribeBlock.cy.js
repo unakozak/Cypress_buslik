@@ -1,4 +1,4 @@
-const homePage = require("../pages/homePage");
+/// <reference types="Cypress" />
 
 describe('Buslik web-app: Home page', () => {
   let userData;

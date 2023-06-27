@@ -1,3 +1,5 @@
+/// <reference types="Cypress" />
+
 const homePage = require("../pages/homePage");
 
 describe('Buslik web-app: Login page', () => {
